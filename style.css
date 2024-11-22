@@ -33,6 +33,23 @@ main h1:first-child{
   text-align:center;
 }
 
-@media screen and (max-width:376px){
-  
+.card-container{
+  display:grid;
+  grid-template-columns:24em 24em 24em;
+  justify-content:center;
+  align-items:center;
+  column-gap: 25px;
+}
+
+.card-container .card-class:last-child{
+  margin-top:25px;
+}
+
+.card-class{
+  background-color:white;
+  padding:20px 30px;
+}
+
+.heading-class{
+  margin-top:0px;
 }
