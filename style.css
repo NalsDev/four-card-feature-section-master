@@ -34,22 +34,30 @@ main h1:first-child{
 }
 
 .card-container{
-  display:grid;
-  grid-template-columns:24em 24em 24em;
+  display:flex;
   justify-content:center;
   align-items:center;
   column-gap: 25px;
 }
 
-.card-container .card-class:last-child{
-  margin-top:25px;
-}
-
 .card-class{
   background-color:white;
-  padding:20px 30px;
+  width:20em;
+  padding:25px 30px;
+  border-radius:10px;
 }
 
 .heading-class{
   margin-top:0px;
 }
+
+.image-class{
+  margin-top:25px;
+}
+
+.card1-container{
+  display:flex;
+  flex-direction:column;
+  row-gap:25px;
+}
+
