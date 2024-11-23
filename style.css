@@ -36,6 +36,7 @@ main h1:first-child{
 .top-class{
   text-align:center;
   width:500px;
+  margin-top:70px;
 }
 
 .card-container{
@@ -45,6 +46,7 @@ main h1:first-child{
   align-items:center;
   column-gap: 25px;
   margin-top:50px;
+  margin-bottom:70px;
 }
 
 .card-class{
@@ -90,16 +92,47 @@ main h1:first-child{
   justify-content: end;
 }
 
-/* @media screen and (max-width:376px) {
+.card-class p{
+  line-height: 1.8;
+}
+
+@media screen and (max-width:376px) {
   body{
     width:100%;
+    padding:25px;
   }
 
   .top-class{
     width:100%;
+    margin-bottom:15px;
+    margin-top:60px;
   }
 
-  h1{
-    font-size: 15px;
+  .card-container{
+    display:flex;
+    flex-direction: column;
+    row-gap:25px;
+    margin-bottom:60px;
   }
-} */
+
+  .card-class{
+    width:18em;
+  }
+
+  .image-class{
+    margin-top:25px;
+  }
+  
+  .top-class p{
+    font-size:18px;
+  }
+
+  .top-class h1{
+    font-size:29px;
+  }
+
+  .card-class h3{
+    margin-bottom:-8px;
+    font-size:22px;
+  }
+}
